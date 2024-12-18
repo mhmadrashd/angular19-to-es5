@@ -4,7 +4,10 @@ This project was generated using [Angular CLI](https://github.com/angular/angula
 
 ## To Convert EsNext to ES5
 
-1- Install Dependencies. 'npm install --save-dev webpack webpack-cli babel-loader @babel/core @babel/preset-env core-js regenerator-runtime'
+1- Install Dependencies.
+```npm
+npm install --save-dev webpack webpack-cli babel-loader @babel/core @babel/preset-env core-js regenerator-runtime
+```
 
 2- Set Webpack Config File.
 
