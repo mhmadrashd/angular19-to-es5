@@ -1,4 +1,4 @@
-# Angular19Babel
+# Angular19 to ES5 using webpack config and babel
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.4.
 
