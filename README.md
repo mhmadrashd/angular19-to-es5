@@ -13,7 +13,7 @@ npm install --save-dev webpack webpack-cli babel-loader @babel/core @babel/prese
 
 3- Add browserlist File.
 
-4- Add pollyfills.ts.
+4- Add pollyfills.ts file.
 
 5- Add polyfills.ts to tsconfig.app.json.
 
@@ -23,17 +23,29 @@ npm install --save-dev webpack webpack-cli babel-loader @babel/core @babel/prese
 
 8- Add provideExperimentalZonelessChangeDetection() in app.config.ts.
 
-9- Add "webpack": "webpack" to package.json
+9- Add 
+```json
+"webpack": "webpack"
+```
+to package.json
 
-10- Run "ng build --base-href /browser/ && npm run webpack" To generate es5 build.
+10- Run 
+```npm
+ng build --base-href /browser/ && npm run webpack
+```
+To generate es5 build.
 
 ## To Setup prettier, eslint and lint-staged and use husky.
 
-1- ng add @angular-eslint/schematics
+```npm
+ng add @angular-eslint/schematics
+```
 
 2- Add eslint.config.js file.
 
-3- npm install --save-dev prettier lint-staged husky
+```npm
+npm install --save-dev prettier lint-staged husky
+```
 
 4- Add .prettierrc file.
 
